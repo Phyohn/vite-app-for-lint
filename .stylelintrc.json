@@ -1,0 +1,17 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+  "ignoreFiles": ["**/node_modules/**"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "order/properties-order": [
+      "font-weight",
+      "line-height"
+    ],
+    "declaration-empty-line-before": "never",
+    "color-function-notation": "modern",
+    "alpha-value-notation": "percentage",
+    "value-keyword-case": "lower",
+    "rule-empty-line-before": ["always", { "except": ["first-nested"] }],
+    "color-hex-length": "short"
+  }
+}

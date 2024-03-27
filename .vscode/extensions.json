@@ -1,0 +1,27 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag", //Auto Close Tag…… HTML/XML タグを書くと、自動的に閉じタグを追加してくれる
+        "formulahendry.auto-rename-tag", //Auto Rename Tag…… HTML/XML の開きタグ閉じタグどちらかの要素名を変更すると、対応するタグも同期してくれる
+	"formulahendry.code-runner", //Code Runner
+	"dbaeumer.vscode-eslint", //ESLint……JavaScript の静的コード解析ツール ESLint を VS Code に統合する
+	"mhutchie.git-graph", //Git Graph
+	"donjayamanne.git", //Git History…… Git のコミット履歴を見やすく表示してくれる
+	"wix.vscode-import-cost", //Import Cost…… モジュールをインポートしている文の横に、算出したバンドルサイズを表示してくれる
+	"oderwat.indent-rainbow", //indent-rainbow…… インデントの階層を色分けして見やすくしてくれる
+	"visualstudioexptteam.intellicode-api-usage-examples", //IntelliCode API Usage Examples
+	"ms-ceintl.vscode-language-pack-ja", //Japanese Language Pack for Visual Stu…… VS Code の UI を日本語にローカライズする。以前は標準機能だったが拡張に切り出された
+	"wix.vscode-import-cost", //Import Cost
+	"mariusalchimavicius.json-to-ts", //JSON to TS…… JSON オブジェクトを TypeScript のインターフェースに変換してくれる
+	"ritwickdey.livese", //Live Server
+	"ms-vsliveshare.vsl", //Live Share…… 複数人によるリアルタイムのコーディングコラボレーションを実現する
+	"christian-kohler.path-intellisense", //Path Intellisense…… インポート文のパスを自動補完してくれる
+	"esbenp.prettier-vscode", //Prettier - Code formatter…… コード自動整形ツール Prettier を VS Code に統合する
+	"stylelint.vscode-stylelint", //Stylelint…… CSS 用のリンター stylelint を VS Code に統合する
+	"vscode-icons-team.vscode-icons", //vscode-icons…… 左ペインの Explorer のファイルアイコンをバリエーション豊かにしてくれる
+	"tomoki1207.pdf", //vscode-pdf
+	"ms-vscode-remote.remote-wsl" //WSL…… Windows 環境から WSL（ Windows Subsystem for Linux）のファイルシステム上にあるプロジェクトを開けるようにする
+        // 他の拡張機能
+    ]
+}
+
+

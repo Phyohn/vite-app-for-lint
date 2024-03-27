@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "es2022": true,
+        "node": true
+    },
+    "extends": [
+        "eslint-config-love", //standard-with-typescriptは非推奨のため本体を削除
+	"eslint:recommended",
+	"plugin:@typescript-eslint/recommended",
+	"plugin:@typescript-eslint/recommended-requiring-type-checking",
+	"standard-with-typescript",
+	"plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+	"plugin:react/jsx-runtime",
+	"plugin:react-hooks/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+	"tsconfigRootDir": ".",
+	"project": ["./tsconfig.json"],
+        "sourceType": "module"
+    },
+    "plugins": [
+	"@typescript-eslint",
+	"jsx-a11y",
+        "react",
+	"react-hooks"
+    ],
+    "rules": {
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
